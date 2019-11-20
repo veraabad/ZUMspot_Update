@@ -3,7 +3,7 @@
 # Copyright (C) 2019 by Abad Vera
 
 # Download latest firmware for ZUMspot Duplex
-curl -OL https://github.com/veraabad/ZUMspot_Update/blob/master/zumspot_duplex_fw.bin
+curl -OL https://raw.githubusercontent.com/veraabad/ZUMspot_Update/master/zumspot_duplex_fw.bin
 
 # Stop MMDVMHost process to free serial port
 sudo killall MMDVMHost >/dev/null 2>&1
